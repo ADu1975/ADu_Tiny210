@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ft5x06_ts.ko := arm-linux-ld -EL -r  -T /opt/FriendlyARM/tiny210V2/android/linux-3.0.8/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ft5x06_ts.ko drivers/input/touchscreen/ft5x06_ts.o drivers/input/touchscreen/ft5x06_ts.mod.o
